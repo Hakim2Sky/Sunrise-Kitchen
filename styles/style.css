@@ -10,7 +10,7 @@ html {
 }
 
 main > * {
-    height: 370px;
+    min-height: 370px;
     padding: 30px 10%;
 }
 
@@ -27,6 +27,7 @@ button {
     padding: 10px 25px;
     border-radius: 8px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 /* header */
@@ -61,7 +62,7 @@ nav {
 }
 
 .hero-image {
-    width: 48%;
+    height: 300px;
     object-fit: cover;
 }
 
